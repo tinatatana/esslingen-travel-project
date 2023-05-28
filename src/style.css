@@ -22,6 +22,7 @@ body {
 .grid-3col {
   grid-template-columns: 1fr 1fr 1fr;
 }
+
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
@@ -51,11 +52,17 @@ body {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .text-center {
   text-align: center;
+}
+.icon {
+  padding-right: 20px;
+}
+.contact {
+  margin-bottom: 10px;
 }
 section {
   max-width: 100%;
