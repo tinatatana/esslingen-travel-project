@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 .grid {
   display: grid;
@@ -22,9 +22,16 @@ body {
 .grid-3col {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .card {
   background: white;
   margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 30px;
@@ -179,5 +186,11 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
